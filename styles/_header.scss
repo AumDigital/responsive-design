@@ -1,0 +1,49 @@
+header {
+    width:100%;
+    margin: 0px;
+    display: flex;
+} 
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+    font-family: $nav-font;
+}
+
+.nav-list {
+    display: flex;
+    width: 60%;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #242635;
+}
+
+.logo {
+    margin: 0 auto 0 2rem;
+    font-family: $logo-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+
