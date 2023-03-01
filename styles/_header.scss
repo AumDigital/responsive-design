@@ -1,6 +1,6 @@
 header {
     width:100%;
-    margin: 0px;
+    margin: 0;
     display: flex;
 } 
 
@@ -11,16 +11,17 @@ nav {
     flex-wrap: wrap;
     width: 100%;
     margin: 0;
-    font-family: $nav-font;
+    padding: 3rem; 
+    font-family: $main-font;
 }
 
 .nav-list {
     display: flex;
-    width: 60%;
     justify-content: flex-end;
     align-items: center;
     margin: 0 auto;
-    margin-top: 2rem;
+    max-width: 90%;
+    width: 100%;
 
 }
 
@@ -45,5 +46,31 @@ nav {
     font-weight: 400;
     font-size: 24px;
     line-height: 36px;
+}
+
+.phone-view {
+    opacity: 0;
+}
+
+@media screen and (max-width: 59rem) {
+    .logo {
+        font-family: 'Baloo';
+    }
+}
+
+@media screen and (max-width: 37.5rem){
+    .logo {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .nav-list li:not(:first-child):not(:last-child) {
+        display: none;
+    }
+    .phone-view {
+        opacity: 1;
+    }
+    .nav-list {
+        max-width:100%;
+    }
 }
 

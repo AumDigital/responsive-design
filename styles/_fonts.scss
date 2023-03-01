@@ -1,6 +1,14 @@
 $main-font: 'Poppins', sans-serif;
 $nav-font:  'Source Sans Pro', sans-serif;
 $logo-font: 'Aldrich', sans-serif;
+$logo-font2: 'Baloo';
 
 
-
+@font-face {
+    font-family: "Baloo";
+    src: url(fonts/baloo-regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    font-size: 24px;
+}
