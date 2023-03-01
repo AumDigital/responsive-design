@@ -10,7 +10,7 @@ nav {
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
-    margin: 0;
+    margin: 0 auto;
     padding: 3rem; 
     font-family: $main-font;
 }
@@ -40,7 +40,7 @@ nav {
 }
 
 .logo {
-    margin: 0 auto 0 2rem;
+    margin: 0 auto 0 0;
     font-family: $logo-font;
     font-style: normal;
     font-weight: 400;
