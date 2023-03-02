@@ -74,7 +74,7 @@
 
 @media screen and (max-width: 59rem) {
     .main-image {
-        content: url(images/horse-ipad.jpg);
+        content: url(../images/horse-ipad.jpg);
     }
     .title-container h1 {
         font-size: 72px;
@@ -84,7 +84,7 @@
 
 @media screen and (max-width: 37.5rem) {
     .main-image {
-        content: url(images/horse-phone.jpg);
+        content: url(../images/horse-phone.jpg);
     }
     .main-image {
         margin-top: 3rem;
